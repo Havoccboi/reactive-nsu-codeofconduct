@@ -48,12 +48,29 @@
 
 
 <style type="text/css">
-    #sidebar{
+  #sidebar{
         visibility: hidden;
     }
+  #pop_x5F_situation1, #pop_x5F_situation2, #pop_x5F_situation3, #pop_x5F_situation4, #pop_x5F_situation5{
+   
+   visibility: hidden;  
+}
+
+  #person1:hover,#person2:hover,#person3:hover,#person4:hover,#person5:hover{
+           opacity: 0.8;
+          cursor: pointer;
+              
+  }
 
 </style>
-
+<script>
+  function show(id) {
+    document.getElementById(id).style.visibility = "visible";
+  }
+  function hide(id) {
+    document.getElementById(id).style.visibility = "hidden";
+  }
+</script> 
 </head>
 
 <body>
