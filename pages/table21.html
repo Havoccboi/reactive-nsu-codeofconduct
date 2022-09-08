@@ -51,9 +51,27 @@
     #sidebar{
         visibility: hidden;
     }
+    #pop_x5F_situation1, #pop_x5F_situation2, #pop_x5F_situation3 {
+   
+   visibility: hidden;  
+}
+
+#person1:hover,#person2:hover,#person3:hover {
+           opacity: 0.8;
+          cursor: pointer;
+              
+  }
+
 
 </style>
-
+<script>
+  function show(id) {
+    document.getElementById(id).style.visibility = "visible";
+  }
+  function hide(id) {
+    document.getElementById(id).style.visibility = "hidden";
+  }
+</script> 
 </head>
 
 <body>
